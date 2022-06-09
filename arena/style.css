@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.logo-img{
+    width: 150px;
+}
+.tel-num{
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-left: 17px;
+}
+.carousel-inner{
+    
+}
+.how-item{
+        text-align: center;
+}
+.how-item img{
+    width: 50%;
+    padding: 40px;
+}
+.bold{
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+.how-it-works{
+    margin: 80px 0;
+    padding: 50px 0;
+    background-image: linear-gradient(to bottom, #83bbfa, #deeaff, #ecf0ff, #f7f7ff, #ffffff);
+}
+.about,.covid-19{
+    
+    margin: 80px 0;
+    padding: 50px 0;
+    background-image: linear-gradient(to bottom, #83bbfa, #deeaff, #ecf0ff, #f7f7ff, #ffffff);
+}
+
+.professional-services{
+    margin: 100px 0;
+}
+.services-item img{
+    width: 50%;
+  
+}
+.services-item-img{
+    margin-bottom:25px;
+    margin-top: 20px;
+}
+.services-item{
+    border: 2px solid rgb(211, 211, 211);
+    padding: 20px;
+    margin: 10px;
+    height: 100%;
+}
+h2{
+    margin: 50px 0;
+
+}
+.covid-19-row{
+    text-align: justify;
+    align-items: center;
+}
+.covid-19-col-2{
+    padding: 30px 20px;
+}
+.area-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-image: url(list-img.png);
+    margin: 50px 0;
+}
+.area-row{
+    border-radius: 20px;
+    background-image: linear-gradient(to right , #0075ff, #d0d2e3);
+    padding: 50px 0;
+}
+.number-big-p{
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 0;
+}
+.number-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+footer img{
+ width: 200px;
+}
+footer{
+    margin-top: 50px;
+    padding: 30px 0;
+    color: #000000;
+    background: linear-gradient(to right, #3F37A0, #FBFBFB, #2A00FF);
+}
+.navbar{
+    background: linear-gradient(to right, #a39fcd, #FBFBFB, #2A00FF);
+    margin-bottom: 50px;
+}
+nav{
+        
+
+}
+section{
+    margin: 100px 0;
+}
+.btn-top {
+    background: linear-gradient(to right, #1500ff, #FBFBFB, #fff700);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    animation: btn-top-anim 1s infinite;
+}
+
+.btn-top:hover {
+    animation-play-state: paused;
+    text-shadow: 0px 0px 5px rgb(255, 0, 0);
+}
+
+.top-link {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+@keyframes btn-top-anim {
+    0% {
+        bottom: 30px;
+        border-radius: 10%;
+    }
+
+    50% {
+        bottom: 50px;
+        border-radius: 50%;
+    }
+
+    100% {
+        bottom: 30px;
+        border-radius: 10%;
+    }
+}
+div{
+    box-sizing: border-box;
+}
+.card-front{
+   background-color: rgb(94, 45, 0);
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   position: absolute;
+   z-index: 5;
+   transition: 1s;
+}
+.card-hover:hover .card-front{
+    transform: translate(250px, -250px);
+}
+.card-hover{
+   width: 250px;
+   height: 250px;
+   background-color: rgb(255, 205, 205);
+   margin: 10px;
+   position: relative;
+   overflow: hidden;
+}
+.card-back{
+    background-color: rgb(74, 122, 255);
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-hover p, h2{
+    margin: 0;
+}
+.card-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.nav-item .nav-link{
+    color: black !important;
+    font-size: 1.3rem;
+}
